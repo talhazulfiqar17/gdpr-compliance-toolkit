@@ -1,0 +1,94 @@
+ Cookie Consent 
+.gdpr-cookie-consent {
+    position fixed;
+    bottom 0;
+    left 0;
+    right 0;
+    background #333;
+    color #fff;
+    padding 15px;
+    z-index 9999;
+    box-shadow 0 -2px 10px rgba(0,0,0,0.2);
+}
+
+.gdpr-cookie-consent-content {
+    max-width 1200px;
+    margin 0 auto;
+    display flex;
+    flex-wrap wrap;
+    justify-content space-between;
+    align-items center;
+}
+
+.gdpr-cookie-consent p {
+    margin 0 15px 0 0;
+    flex 1;
+}
+
+.gdpr-cookie-consent-buttons {
+    display flex;
+    align-items center;
+}
+
+.gdpr-cookie-consent button {
+    margin-left 10px;
+    padding 5px 15px;
+    border none;
+    cursor pointer;
+}
+
+.gdpr-cookie-consent a {
+    color #fff;
+    margin-left 15px;
+    text-decoration underline;
+}
+
+ Data Request Form 
+.gdpr-data-request-form {
+    max-width 500px;
+    margin 20px 0;
+    padding 20px;
+    border 1px solid #ddd;
+    background #f9f9f9;
+}
+
+.gdpr-data-request-form .form-group {
+    margin-bottom 15px;
+}
+
+.gdpr-data-request-form label {
+    display block;
+    margin-bottom 5px;
+    font-weight bold;
+}
+
+.gdpr-data-request-form input[type=email],
+.gdpr-data-request-form select {
+    width 100%;
+    padding 8px;
+    border 1px solid #ddd;
+}
+
+.gdpr-data-request-form button {
+    background #2271b1;
+    color #fff;
+    border none;
+    padding 10px 15px;
+    cursor pointer;
+}
+
+.gdpr-response-message {
+    margin-top 15px;
+}
+
+.gdpr-response-message .loading {
+    color #2271b1;
+}
+
+.gdpr-response-message .success {
+    color #4CAF50;
+}
+
+.gdpr-response-message .error {
+    color #F44336;
+}
